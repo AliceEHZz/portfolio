@@ -13,7 +13,8 @@ export default function ProjectDetail({ project }: { project: Project }) {
 						src={project.previewImage}
 						alt={`Preview of ${project.title}`}
 						layout="fill"
-						objectFit="cover"
+						objectFit="contain" // Adjust objectFit to "contain"
+						objectPosition="center" // Optional: Adjusts the position of the image within the container
 					/>
 				</div>
 				<h1 className="text-4xl font-bold mb-4">{project.title}</h1>

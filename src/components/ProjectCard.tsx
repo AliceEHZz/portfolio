@@ -27,8 +27,8 @@ export function ProjectCard({ project }: { project: Project }) {
 						src={project.previewImage}
 						alt={`Preview of ${project.title}`}
 						layout="fill"
-						objectFit="cover"
-						className="rounded-lg"
+						objectFit="contain" // Adjust objectFit to "contain"
+						objectPosition="center" // Optional: Adjusts the position of the image within the container
 					/>
 				</div>
 			</CardHeader>
