@@ -99,35 +99,70 @@ const receiptRadarDes = () => {
 		<>
 			<div className="space-y-6 text-justify">
 				<h2 className="text-2xl font-bold text-center">Introduction</h2>
-				<p>Project TWO</p>
-
-				<h2 className="text-2xl font-bold text-center">
-					Problem Identification
-				</h2>
-				<p>xx</p>
-
+				<p>
+					Receipt Radar represents a leap forward in personal finance
+					management, offering users an intuitive and powerful tool to track
+					expenses with ease. Designed to simplify the often tedious task of
+					expense tracking, Receipt Radar combines user-friendly design with
+					powerful backend technologies to create a seamless experience. The app
+					allows for meticulous management of expenses by category, enhanced by
+					the capability to add, edit, and delete entries, as well as the
+					innovative feature of uploading receipt images for better
+					record-keeping.
+				</p>
 				<h2 className="text-2xl font-bold text-center">
 					The Development Journey
 				</h2>
-				<p>xx</p>
-				<p>xx</p>
+				<p>
+					The foundation of Receipt Radar is built on a modern and robust tech
+					stack that includes React and Typescript for a reactive front-end,
+					Tailwind CSS for responsive design, and Shadcn for advanced UI
+					effects. Design and prototyping were facilitated using Figma, ensuring
+					a user-centric interface. The app&rsquo;s data management is powered
+					by PostgreSQL with NeonDB for scalable database solutions, while
+					RESTful API architecture supports seamless data transactions.
+				</p>
+				<p>
+					A standout feature of Receipt Radar is its dynamic table, designed to
+					offer users flexibility in filtering and navigating expense data. This
+					attention to user experience is a testament to the development
+					team&rsquo;s commitment to not just meeting but exceeding user needs
+					for managing personal finances efficiently.
+				</p>
+				<div className="mt-4">
+					<Link href="/images/receipt-radar/home.png">
+						<Image
+							src="/images/receipt-radar/home.png"
+							alt="receipt-radar-home-page"
+							width={1000}
+							height={1000}
+						/>
+					</Link>
+				</div>
 
-				<h2 className="text-2xl font-bold text-center">
-					Enhancements and Outcomes
-				</h2>
-				{/* Consider adding a before-and-after image comparison here */}
-				<p>xx</p>
-
-				<h2 className="text-2xl font-bold text-center">
-					Reflections and Learnings
-				</h2>
-				<p>xx</p>
-				<p>xx</p>
+				<h2 className="text-2xl font-bold text-center">Future Enhancement</h2>
+				<p>
+					Looking ahead, Receipt Radar plans to integrate Image Processing AI
+					technology to revolutionize how expense tracking is done. This
+					technology will identify items on receipts and automatically populate
+					form fields, further reducing manual entry and making expense
+					management even more accessible and error-free. Additionally, AWS S3
+					is incorporated for secure and scalable storage of receipt images,
+					ensuring that users’ data is safe and readily available.
+				</p>
 
 				<h2 className="text-2xl font-bold text-center">Conclusion</h2>
-				<p>xx</p>
+				<p>
+					Receipt Radar is more than just an expense tracker; it&rsquo;s a
+					comprehensive solution designed to ease the burden of financial
+					management. By leveraging cutting-edge technologies and focusing on
+					user experience, Receipt Radar stands poised to become an
+					indispensable tool for anyone looking to take control of their
+					finances. With plans to incorporate AI for automated data entry, the
+					future of Receipt Radar promises even greater efficiency and accuracy,
+					making financial management a breeze for users worldwide.
+				</p>
 			</div>
-			;
 		</>
 	);
 };
