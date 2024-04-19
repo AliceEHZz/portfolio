@@ -34,7 +34,7 @@ export default function NavBar() {
 						href="/#contact-me"
 						className="text-gray-600 hover:text-primary font-semibold"
 					>
-						Contact Me
+						Contact
 					</Link>
 				</li>
 			</ul>

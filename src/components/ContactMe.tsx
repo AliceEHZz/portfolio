@@ -5,7 +5,7 @@ import MailToButton from "./MailToButton";
 export default function ContactSection() {
 	return (
 		<section id="contact-me" className="text-center bg-secondary">
-			<h1 className="text-3xl text-primary font-bold mt-10">Contact Me</h1>
+			<h1 className="text-3xl text-primary font-bold mt-10">Contact</h1>
 			<div className="flex items-center justify-center space-x-4 py-5">
 				<Link
 					href="https://github.com/AliceEHZz"

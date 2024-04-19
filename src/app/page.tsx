@@ -8,11 +8,11 @@ export default function Home() {
 			<div className="p-40 flex flex-col justify-center space-y-4 bg-secondary">
 				<div>
 					<h1 className="text-7xl text-primary font-bold">
-						Hello, I&apos;m Alice Lin
+						hi, I&apos;m Alice Lin
 					</h1>
 				</div>
 				<div className="text-3xl text-gray-600">
-					<p>Great Vancouver Full Stack Developer</p>
+					<p>Full Stack Developer</p>
 				</div>
 			</div>
 			{/*  */}
